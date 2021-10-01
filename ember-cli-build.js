@@ -7,6 +7,21 @@ module.exports = function(defaults) {
     // Add options here
     babel: {
       plugins: [require.resolve('ember-auto-import/babel-plugin')]
+    },
+    emberHighCharts: {
+      includeHighCharts: false,
+      includeHighChartsMore: false
+      // Do we need to have more
+    },
+    autoImport: {
+      // added below configuration because of -> https://github.com/ef4/ember-auto-import/issues/133
+      webpack: {
+        optimization: {
+          splitChunks: {
+            chunks: 'async'
+          }
+        }
+      }
     }
   });
 
