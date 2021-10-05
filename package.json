@@ -18,7 +18,7 @@
     "test": "ember test -s --port=8765"
   },
   "devDependencies": {
-    "highcharts": "^6.1.0",
+    "highcharts": "^9.0.0",
     "gridstack": "^0.4.0",
     "ember-qunit-custom-assertions": "^2.0.1",
     "broccoli-funnel": "^2.0.2",

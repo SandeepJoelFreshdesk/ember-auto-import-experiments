@@ -23,7 +23,7 @@
   "dependencies": {
     "ember-cli-babel": "^6.16.0",
     "ember-cli-htmlbars": "^3.0.0",
-    "highcharts": "^6.1.0",
+    "highcharts": "^9.0.0",
     "ember-auto-import": "^1.5.3"
   },
   "devDependencies": {
