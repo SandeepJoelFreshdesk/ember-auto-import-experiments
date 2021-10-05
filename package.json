@@ -1,8 +1,8 @@
 {
-  "name": "ember-auto-import-gridstack",
+  "name": "ember-auto-import-experiments",
   "version": "0.0.0",
   "private": true,
-  "description": "Small description for ember-auto-import-gridstack goes here",
+  "description": "Small description for ember-auto-import-experiments goes here",
   "repository": "",
   "license": "MIT",
   "author": "",
@@ -15,7 +15,7 @@
     "lint:hbs": "ember-template-lint .",
     "lint:js": "eslint .",
     "start": "ember serve --port=9876",
-    "test": "ember test -s"
+    "test": "ember test -s --port=8765"
   },
   "devDependencies": {
     "highcharts": "^6.1.0",

@@ -2,7 +2,7 @@
 
 module.exports = function(environment) {
   let ENV = {
-    modulePrefix: 'ember-auto-import-gridstack',
+    modulePrefix: 'ember-auto-import-experiments',
     environment,
     rootURL: '/',
     locationType: 'auto',
